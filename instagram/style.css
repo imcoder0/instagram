@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 0 8rem;
+
+
+}
+
+nav ul i {
+    align-items: center;
+    top: -1rem;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding-right: .8rem;
+
+}
+
+#search {
+    padding-right: 3rem;
+
+}
+
+#search input {
+    padding-right: .8rem;
+
+}
+
+#search .fa-search {
+    align-self: center;
+    padding: 10px 20px;
+    color: #777;
+
+}
+
+nav .title {
+    font-family: 'Playfair Display', serif;
+
+    padding-right: 14rem;
+
+}
+.Body{
+    background-color: rgb(245, 243, 243);
+}
+
+
+.Body .body {
+    padding: 2rem 15rem;
+}
+
+.body .head img {
+    float: left;
+    background-color: rgb(var(--ig-secondary-background));
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 160px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+
+}
+
+.body .lpg {
+    padding-right: 5rem;
+}
+
+.Body .body .head .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 7rem;
+}
+
+.Body .body .head .title .lop {
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 1rem;
+
+}
+
+.Body .body .head .title button {
+    background-color: white;
+    font-size: .9rem;
+    color: rgb(49, 49, 49);
+    border: 0.8px solid rgb(191, 191, 191);
+
+}
+
+.Body .body .head .title .lpo {
+    padding-right: 1rem;
+}
+
+input {
+    width: 150px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    
+    background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_search_48px-128.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 6px 0;
+}
+
+input:focus {
+    padding-left: 16px;
+    background-position: 0;
+}
+.Body .body .follow .lpp{
+    padding-left: 7rem;
+    font-size: large;
+    
+}
+.ll{
+    padding-right: 2rem;
+}
+.lpl{
+    padding-left: 7rem;
+}
+ .fop{
+    padding-left: 7rem;
+}
+.op{
+    padding-left: 8px; 
+    text-transform: uppercase;
+}
+.ppl{
+    padding-left: 14rem;
+    padding-right: 1.5rem;
+}
+.ppp {
+    padding-right: 1.5rem;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    
+}
+footer .in{
+    color: #777;
+    font-size: small;
+    padding-right: 4px;
+}
+footer .ino{
+    color: #777;
+    font-size: small;
+    padding-right: 4px;
+   
+}
+footer .iom{
+    padding :0 8rem;
+}
